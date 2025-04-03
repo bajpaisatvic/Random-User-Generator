@@ -1,7 +1,4 @@
 
-
----
-
 ### 📌 **Random User Generator**  
 
 A simple web application that fetches and displays random users using the **FreeAPI Random Users API**.  
@@ -36,9 +33,3 @@ Simply open `index.html` in your favorite browser.
 
 ---
 
-## 📜 **License**  
-This project is open-source and available under the **MIT License**.  
-
----
-
-Would you like me to modify or add anything specific? 🚀
