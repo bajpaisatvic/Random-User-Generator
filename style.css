@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #2709eb;
+  color: #ede6e6;
+  /* line-height: 1.6; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  width: 100%;
+  max-width: 600px;
+  padding: 40px;
+  background-color: #ba34c6;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(239, 235, 235, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#generate {
+  background-color: #2a98d3;
+  color: #eae6e6;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+#generate:hover {
+  background-color: #1f7bb8;
+  transform: translateX(0px);
+}
+
+.user {
+  list-style-type: none;
+  margin-bottom: 10px;
+  background-color: #6c34c6;
+  padding: 10px;
+  width: 400px;
+  border-radius: 5px;
+  display: flex;
+  font-weight: bold;
+  justify-content: space-evenly;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.username {
+  text-align: left;
+  /* background-color: aliceblue; */
+  width: 175px;
+  /* color: black; */
+}
+
+.gender {
+  text-align: left;
+  /* background-color: aliceblue; */
+  width: 75px;
+  /* color: black; */
+}
+
+.age {
+  text-align: left;
+  /* background-color: aliceblue; */
+  /* color: black; */
+}
